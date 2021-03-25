@@ -1,0 +1,17 @@
+{
+  "tools": [
+    {
+      "name":"cat","alternatives": [
+        { "name":"bat", "url":"https://github.com/sharkdp/bat"}
+      ]
+    },
+    {
+      "name":"grep",
+      "alternatives": [
+        { "name":"ripgrep", "url":"https://github.com/BurntSushi/ripgrep"},
+        { "name":"ugrep", "url":"https://github.com/Genivia/ugrep"},
+        { "name":"ag (The Silver Searcher)", "url":"https://geoff.greer.fm/ag/"}
+      ]
+    }
+  ]
+}
