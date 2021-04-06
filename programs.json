@@ -1,0 +1,35 @@
+{
+  "programs": [
+    [
+      "group":"0000"
+      {
+        "name":"cat",
+        "url":""
+      },
+      {
+        "name":"bat",
+        "url":"https://github.com/sharkdp/bat"
+      }
+    ],
+    [
+      "group":"0001"
+      {
+        "name":"grep",
+        "url":""
+      },
+      {
+        "name":"ripgrep",
+        "url":"https://github.com/BurntSushi/ripgrep"
+      },
+      {
+        "name":"ugrep",
+        "url":"https://github.com/Genivia/ugrep"
+      },
+      {
+        "name":"ag",
+        "fullname":"Silver Searcher",
+        "url":"https://geoff.greer.fm/ag/"
+      }
+    ]
+  ]
+}
