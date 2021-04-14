@@ -20,24 +20,23 @@ type Program struct {
 }
 
 func main() {
-    // Open our jsonFile
+    // Open jsonFile
     jsonFile, err := os.Open("programs.json")
-    // if we os.Open returns an error then handle it
+    // handle error os.Open may return
     if err != nil {
       fmt.Println(err)
     }
-    fmt.Println("Successfully Opened users.json")
+
     // defer the closing of our jsonFile so that we can parse it later on
     defer jsonFile.Close()
 
-    // read our opened jsonFile as a byte array.
+    // read opened jsonFile as a byte array.
     byteValue, _ := ioutil.ReadAll(jsonFile)
 
     //initialize programs array
     var programs Programs
 
-    // we unmarshal our byteArray which contains our
-    // jsonFile's content into 'users' which we defined above
+    // unmarshal the byteArray from jsonFile
     json.Unmarshal(byteValue, &programs)
 
     // we iterate through every program within our programs array and

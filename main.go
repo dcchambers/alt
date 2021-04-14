@@ -1,5 +1,5 @@
 /*
-Copyright © 2021 Dakota Chambers <dakotachambers@gmail.com>
+Copyright © 2021 Dakota Chambers
 
 MIT License - See LICENSE file for more information.
 */
