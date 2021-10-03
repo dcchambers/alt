@@ -12,6 +12,14 @@
       ]
     },
     {
+      "name":"awk",
+      "description":"",
+      "url":"",
+      "alternatives":[
+        "fex"
+      ]
+    },
+    {
       "name":"bat",
       "description":"",
       "url":"https://github.com/sharkdp/bat",
@@ -25,6 +33,14 @@
       "url":"",
       "alternatives":[
         "bat"
+      ]
+    },
+    {
+      "name":"fex",
+      "description":"Like awk but simpler to use.",
+      "url":"https://www.semicomplete.com/projects/fex",
+      "alternatives":[
+        "awk"
       ]
     },
     {
@@ -45,6 +61,22 @@
         "ag",
         "grep",
         "ugrep"
+      ]
+    },
+    {
+      "name":"sed",
+      "description":"",
+      "url":"",
+      "alternatives":[
+        "sd"
+      ]
+    },
+    {
+      "name":"sd",
+      "description":"Simpler sed.",
+      "url":"https://github.com/chmln/sd",
+      "alternatives":[
+        "sed"
       ]
     },
     {
